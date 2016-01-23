@@ -1,0 +1,19 @@
+{
+  "name": "face-notepad",
+  "version": "1.0.0",
+  "description": "Pure html social network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnsonWebWare/faceNotePad.git"
+  },
+  "author": "Alexander Johnson <alex@johnsonwebware.com> (http://johnsonwebware.com)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JohnsonWebWare/faceNotePad/issues"
+  },
+  "homepage": "https://github.com/JohnsonWebWare/faceNotePad#readme"
+}

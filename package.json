@@ -1,6 +1,6 @@
 {
   "name": "gitSocialClub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Social Network using GitHub Authentication",
   "main": "index.js",
   "scripts": {

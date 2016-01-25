@@ -3,11 +3,15 @@ header
 		ul
 			section#nav-left
 				li
-					h1#logo FaceNotePad
+					h1#logo Git Social Club
 			section#nav-right
 				li
-					a(href="/login") Login
-				li
-					a(href="/profile") Profile
+					if user
+						a(href="/logout") logout
+					else
+						a(href="/login") login
+				if user.login
+					li
+						a(href="/profile/#{user.login}") Profile
 				li
 					a(href="/settings") Settings

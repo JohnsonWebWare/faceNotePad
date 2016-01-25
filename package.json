@@ -1,24 +1,26 @@
 {
-  "name": "face-notepad",
+  "name": "gitSocialClub",
   "version": "1.0.0",
-  "description": "Pure html social network",
+  "description": "Social Network using GitHub Authentication",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JohnsonWebWare/faceNotePad.git"
+    "url": "git+https://github.com/JohnsonWebWare/gitSocialClub.git"
   },
   "author": "Alexander Johnson <alex@johnsonwebware.com> (http://johnsonwebware.com)",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/JohnsonWebWare/faceNotePad/issues"
+    "url": "https://github.com/JohnsonWebWare/gitSocialClub/issues"
   },
-  "homepage": "https://github.com/JohnsonWebWare/faceNotePad#readme",
+  "homepage": "https://github.com/JohnsonWebWare/gitSocialClub#readme",
   "dependencies": {
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-github2": "^0.1.9"
   },
   "devDependencies": {
     "chai": "^3.4.1",

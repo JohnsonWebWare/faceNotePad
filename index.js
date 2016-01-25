@@ -8,4 +8,5 @@ global.util   = require('util');
 
 require(global.lib + '/init')
 	.set('view engine', 'jade')
+	.locals.pretty = true;
 ;
